@@ -6,6 +6,7 @@ openshift: false
 
 registry: registry.neuvector.com
 tag: 4.4.3
+# Set oem: sonatype if deploying Sonatype Nexus Container version of NeuVector
 oem:
 imagePullSecrets:
 psp: false
